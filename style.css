@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+i {
+    cursor: pointer;
+}
+.container {
+    padding: 0;
+}
+.header_up {
+    background-color: #E31F33;
+    height: 35px;
+    width: 100%;
+}
+.header_up-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 0;
+}
+.header_up span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sticky-top {
+    background-color: white;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 1px 20px rgb(201, 201, 201);
+}
+.header_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+.nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 100%;
+    user-select: none;
+}
+.container_banner {
+    position: relative;
+}
+.content_banner {
+    position: absolute;
+    width: auto;
+    line-height: 70px;
+    top: 150px;
+    left: 15%;
+}
+.caodangvietmyhanoi {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #E31F33;
+}
+.modottuyensinh {
+    font-size: 3rem;
+    font-family: "Dancing Script", serif;
+}
+.caodangvietmyhanoi::selection, .modottuyensinh::selection {
+    background-color: #fa4759;
+    color: white;
+}
+.dangkyngay {
+    background-color: #E31F33;
+    font-weight: 700;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 20px;
+    user-select: none;
+}
+.box {  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.box h3::selection, h4::selection {
+    background-color: #fa4759;
+    color: white;
+}
+.bxs-tennis-ball {
+    font-size: 50px;
+    background-color: #ffabb3;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.dangtuyensinh {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box5 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box5 img {
+    width: 420px;
+    border-radius: 10px;
+}
+.box5 p {
+    position: absolute;
+    left: 15%;
+    bottom: -10%;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #dad8d8;
+    margin: 0;
+    padding: 12px 20px;
+    width: 300px;
+    font-size: 1.2rem;
+}
+.video_content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-croll::selection {
+    background-color: #fa4759;
+    color: white;
+}
+.box7 {
+    width: 49.8%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.box7 hr {
+    width: 100px;
+    margin: 20px auto;
+    color: #E31F33;
+}
+.box7 p {
+    font-size: 1.2rem;
+}
+.img_logo {
+    position: absolute;
+    right: 0;
+    bottom: 54px;
+    z-index: -1;
+}
+.img_logo img {
+    width: 100%;
+    opacity: 0.08;
+}
+.lydochoncaodangvietmy {
+    background-image: url(https://caodangvietmyhanoi.edu.vn/images/config/nen-chuyen-nganh_1648980651.jpg.webp);
+    height: 500px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.lydo p::selection, a::selection {
+    background-color: #fa4759;
+    color: white;
+}
+.content_lydochontruongnay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_1 {
+    width: 300px;
+    margin: 0 20px;
+}
+.content_2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.child_1 {
+    display: flex;
+    gap: 40px;
+}
+.box8 {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box8 p {
+    font-weight: bold;
+    margin: 0;
+}
+.bxs-school {
+    font-size: 60px;
+}
+        /* hover */
+.nav ul li a:hover {
+    color: #fa4759;
+    border-bottom: 1px solid #E31F33;
+    transition: all 0.3s;
+}
+.gioithieu {
+    position: relative;
+}
+.dropmenu {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    display: none !important;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+}
+.dropmenu li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+}
+.gioithieu:hover .dropmenu {
+    display: block !important;
+    border-top: 2px solid #E31F33;
+}
+/* hover dang ky ngay */
+.dangkyngay:hover {
+    background-color: #fa4759;
+    box-shadow: 0px 0px 10px #fa4759;
+    transition: all 0.3s;
+}
+/* // */
+.box5 p:hover {
+    background-color: #fa4759;
+    transition: all 0.5s;
+}
+.box5 a:hover {
+    color: white;
+}
+@media screen and (max-width: 1440px){
+    .caodangvietmyhanoi {
+        font-size: 2.4rem;
+    }
+    .modottuyensinh {
+        font-size: 2.2rem;
+    }
+    .content_banner {
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header_down {
+        margin: 0 10px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 40px;
+        top: 25%;
+        left: 10%;
+    }
+    .caodangvietmyhanoi {
+        font-size: 2.2rem;
+    }
+    .modottuyensinh {
+        font-size: 2rem;
+    }
+    .box5 img {
+        width: 360px;
+    }
+    .box5 p {
+        left: 18%;
+        padding: 12px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .box7 {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+    }
+    .box7 video {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header_down {
+        margin: 0 10px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 40px;
+        top: 20%;
+        left: 7%;
+    }
+    .caodangvietmyhanoi {
+        font-size: 2.2rem;
+    }
+    .modottuyensinh {
+        font-size: 2rem;
+    }
+    .box4, .box3, .box2, .box1 {
+        width: 250px;
+    }
+    .box h3 {
+        font-size: 1.5rem;
+    }
+    .box h4 {
+        font-size: 1.2rem;
+    }
+    .box5 img {
+        width: 310px;
+    }
+    .box5 p {
+        left: 13.1%;
+        bottom: -10%;
+        background-color: #FFF;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #dad8d8;
+        margin: 0;
+        padding: 12px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .box7 {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+    }
+    .box7 video {
+        width: 400px;
+    }
+    .content_lydochontruongnay {
+        flex-direction: column;
+    }
+    .content_1 {
+        width: 100%;
+        text-align: center;
+    }
+    .content_1 hr {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 30px;
+        top: 25%;
+        left: 10%;
+    }
+    .caodangvietmyhanoi {
+        font-size: 1.5rem;
+    }
+    .modottuyensinh {
+        font-size: 1.4rem;
+    }
+    .content_banner hr {
+        margin: 40px 0px !important;
+    }
+    .dangkyngay {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .dangkyngay i {
+        font-size: 21px !important;
+    }
+    .dangtuyensinh {
+        flex-direction: column;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .dangtuyensinh_text {
+        padding-top: 10px !important;
+    }
+    .hr_dangtuyensinh {
+        margin: 0px;
+    }
+    .dangtuyensinh .box5 {
+        margin: 40px 0;
+    }
+    .box5 img {
+        width: 390px;
+    }
+    .box5 p {
+        left: 34%;
+        padding: 15px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .video_content {
+        flex-direction: column-reverse;
+        margin: 20px auto;
+    }
+    .box7 {
+        height: 450px;
+    }
+    .box7 .text-croll {
+        width: 600px !important;
+    }
+    .box7 video {
+        width: 100%;
+    }
+    .child_1 .box8:nth-child(4) {
+        display: none;
+    }
+}
+@media screen and (max-width: 430px) {
+    .header_up span{
+        display: none;
+    }
+    .logo img {
+        height: 60px;
+    }
+    .header_down {
+        margin: 0px;
+    }
+    .icon_search i {
+        margin-right: 20px;
+        padding: 10px;
+        background-color: #fa4759;
+        color: white !important;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .icon_search a {
+        display: none;
+    }
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 20px;
+        top: 20%;
+        left: 5%;
+    }
+    .content_banner hr {
+        margin: 20px 0px !important;
+    }
+    .dangkyngay {
+        padding: 10px;
+        font-size: 7px;
+    }
+    .dangkyngay i {
+        font-size: 15px !important;
+    }
+    .box {
+        margin: 10px 0px;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 10px;
+    }
+    .box1 h4, .box2 h4, .box3 h4, .box4 h4 {
+        display: none;
+    }
+    .box1 h3, .box2 h3, .box3 h3, .box4 h3 {
+        font-size: 15px;
+    }
+    .box1 i, .box2 i, .box3 i, .box4 i {
+        font-size: 20px;
+    }
+    .caodangvietmyhanoi {
+        font-size: 0.8rem;
+    }
+    .modottuyensinh {
+        font-size: 0.8rem;
+    }
+    .dangtuyensinh {
+        display: flex;
+        flex-direction: column;
+    }
+    .dangtuyensinh_text {
+        padding-top: 10px !important;
+    }
+    .hr_dangtuyensinh {
+        margin: 0px;
+    }
+    .dangtuyensinh .box5 {
+        margin: 40px 0;
+    }
+    .box5 img {
+        width: 390px;
+    }
+    .box5 p {
+        left: 21%;
+        padding: 15px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .video_content {
+        flex-direction: column-reverse;
+    }
+    .box7 {
+        height: 450px;
+    }
+    .box7 .text-croll {
+        width: 300px !important;
+    }
+    .content_2 {
+        width: 100%;
+    }
+    .child_1 .box8:nth-child(3), .box8:nth-child(4) {
+        display: none;
+    }
+}
+@media screen and (max-width: 390px) {
+    .video_content video {
+        width: 100%;
+    }
+    .box5 img {
+        width: 360px;
+    }
+    .box5 p {
+        left: 18%;
+        padding: 12px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 360px) {
+    .dangkyngay {
+        padding: 7px;
+        font-size: 7px;
+    }
+    .dangkyngay i {
+        font-size: 13px !important;
+    }
+    .content_banner hr {
+        margin: 10px 0px !important;
+    }
+    .box5 img {
+        width: 340px;
+    }
+}
